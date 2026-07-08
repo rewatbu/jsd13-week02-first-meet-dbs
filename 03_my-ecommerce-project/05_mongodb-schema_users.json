@@ -1,0 +1,18 @@
+{
+    _id: "a0001"
+    firstName: "Alice",
+    lastName: "Brown",
+    email: "alice@beancraft.com",
+    password: "...",
+    phone: "0123456789"
+    role: "admin"
+},
+{
+    _id: "a0002"
+    firstName: "Bob",
+    lastName: "Green",
+    email: "bob@beancraft.com",
+    password: "...",
+    phone: "9876543210"
+    role: "staff" 
+}

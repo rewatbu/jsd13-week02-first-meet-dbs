@@ -1,0 +1,25 @@
+{
+    "_id": "...",
+    "customer": "...",
+    "items": {
+            product: ObjectId,
+            productName: String,
+            unitPrice: Number,
+            quantity: Number,
+            subtotal: Number
+        },
+    "orderDate": "2026-07-08",
+    "status": "Processing",
+    "totalAmount": 820,
+    "shippingFee": 60,
+    "paymentMethod": "Bank Transfer",
+    "paymentStatus": "Paid",
+    "shippingAddress": {
+        "name": "Rewat Buranatanit",
+        "phone": "0812345678",
+        "address": "123 ถนนสุขุมวิท",
+        "district": "คลองเตย",
+        "province": "Bangkok",
+        "postalCode": "10110"
+    }
+}
