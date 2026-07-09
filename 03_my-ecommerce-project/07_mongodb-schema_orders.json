@@ -1,25 +1,32 @@
 {
-    "_id": "...",
-    "customer": "...",
-    "items": {
-            product: ObjectId,
-            productName: String,
-            unitPrice: Number,
-            quantity: Number,
-            subtotal: Number
+    "_id": "...",  // ObjectId()
+    "customer": "...", // ObjectId() referencing users
+    "items": [{
+            "product": ObjectId, // ObjectId() referencing products
+            "productName": String, // Referencing? how?
+            "unitPrice": Number,
+            "quantity": Number,
+            "subtotal": Number
         },
-    "orderDate": "2026-07-08",
-    "status": "Processing",
-    "totalAmount": 820,
-    "shippingFee": 60,
-    "paymentMethod": "Bank Transfer",
-    "paymentStatus": "Paid",
+        {
+            "product": ,
+            "productName": ,
+            "unitPrice": ,
+            "quantity": ,
+            "subtotal" 
+        }]
+    "orderDate": "2026-07-08", // Timestamp
+    "status": "Processing",  // string
+    "totalAmount": 820, // number
+    "shippingFee": 60, // number
+    "paymentMethod": "Bank Transfer", // string
+    "paymentStatus": "Paid",  // string
     "shippingAddress": {
-        "name": "Rewat Buranatanit",
-        "phone": "0812345678",
-        "address": "123 ถนนสุขุมวิท",
-        "district": "คลองเตย",
-        "province": "Bangkok",
-        "postalCode": "10110"
+        "name": "Rewat Buranatanit",  // string
+        "phone": "0812345678",  // string
+        "address": "123 ถนนสุขุมวิท",  // string
+        "district": "คลองเตย",  // string
+        "province": "Bangkok",  // string
+        "postalCode": "10110" // string
     }
 }

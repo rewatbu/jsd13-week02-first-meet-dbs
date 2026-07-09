@@ -1,13 +1,12 @@
 {
-    "_id": "...",
-    "name": "Brazil Santos",
-    "description": "Medium roast with chocolate and caramel notes.",
-    "category": "66abc123...", // _id to Categories collection
-    "origin": "Brazil",
-    "roastLevel": "Medium",
-    "weight": 250,
-    "unit": "g",
-    "price": 350,
-    "imageUrl": "/images/brazil.jpg",
-    "isActive": true
+    "_id": "...",  // objectId()
+    "name": "Brazil Santos", // string
+    "description": "Medium roast with chocolate and caramel notes.", // string
+    "origin": "Brazil", // string
+    "roastLevel": "Medium", // string
+    "weight": 250, // number
+    "unit": "g", // string
+    "price": 350, // number
+    "imageUrl": "/images/brazil.jpg", // string
+    "isActive": true // boolean
 }

@@ -1,8 +1,8 @@
 {
-    "_id": "...",
-    "product": "...",
-    "quantity": 42,
-    "minimumStock": 10,
-    "maximumStock": 100,
-    "lastUpdated": "2026-07-08"
+    "_id": "...", // ObjectId()
+    "product": "...", // ObjectId()
+    "quantity": 42,  // number
+    "minimumStock": 10, // number
+    "maximumStock": 100,  // number
+    "lastUpdated": "2026-07-08"  // Timestamp
 }
