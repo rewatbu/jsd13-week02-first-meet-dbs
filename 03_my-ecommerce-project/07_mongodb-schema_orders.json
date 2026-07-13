@@ -1,32 +1,24 @@
 {
-    "_id": "...",  // ObjectId()
-    "customer": "...", // ObjectId() referencing users
+    "customer": ObjectId,
     "items": [{
-            "product": ObjectId, // ObjectId() referencing products
-            "productName": String, // Referencing? how?
+            "product": ObjectId,
+            "productName": String,
             "unitPrice": Number,
             "quantity": Number,
             "subtotal": Number
-        },
-        {
-            "product": ,
-            "productName": ,
-            "unitPrice": ,
-            "quantity": ,
-            "subtotal" 
         }]
-    "orderDate": "2026-07-08", // Timestamp
-    "status": "Processing",  // string
-    "totalAmount": 820, // number
-    "shippingFee": 60, // number
-    "paymentMethod": "Bank Transfer", // string
-    "paymentStatus": "Paid",  // string
+    "orderDate": Timestamp,
+    "status": String
+    "totalAmount": Number,
+    "shippingFee": Number,
+    "paymentMethod": String,
+    "paymentStatus": String,
     "shippingAddress": {
-        "name": "Rewat Buranatanit",  // string
-        "phone": "0812345678",  // string
-        "address": "123 ถนนสุขุมวิท",  // string
-        "district": "คลองเตย",  // string
-        "province": "Bangkok",  // string
-        "postalCode": "10110" // string
+        "name": Sstring,
+        "phone": String,
+        "address": String,
+        "district": String,
+        "province": String,
+        "postalCode": Sring,
     }
 }
